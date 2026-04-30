@@ -158,6 +158,17 @@
         <fullName>ProductCode</fullName>
     </fields>
     <fields>
+        <fullName>RevMgmtExternalID__c</fullName>
+        <externalId>true</externalId>
+        <inlineHelpText>External ID for migration purposes</inlineHelpText>
+        <label>RevMgmtExternalID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>StandardPrice</fullName>
     </fields>
     <fields>
