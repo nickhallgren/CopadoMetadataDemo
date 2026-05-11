@@ -61,4 +61,9 @@
         <default>false</default>
         <label>Payment Credit</label>
     </standardValue>
+    <standardValue>
+        <fullName>Order Summary Orchestration</fullName>
+        <default>false</default>
+        <label>Order Summary Orchestration</label>
+    </standardValue>
 </StandardValueSet>

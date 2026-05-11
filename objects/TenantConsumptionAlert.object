@@ -128,81 +128,37 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>ActiveFromDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertScope</fullName>
     </fields>
     <fields>
-        <fullName>ActiveToDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertStatus</fullName>
     </fields>
     <fields>
-        <fullName>BestTimeToContactEndTime</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertSubScope1</fullName>
     </fields>
     <fields>
-        <fullName>BestTimeToContactStartTime</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertSubScope2</fullName>
     </fields>
     <fields>
-        <fullName>BestTimeToContactTimezone</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertTimestamp</fullName>
     </fields>
     <fields>
-        <fullName>EmailAddress</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AlertType</fullName>
     </fields>
     <fields>
-        <fullName>EmailDomain</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EmailLatestBounceDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EmailLatestBounceReasonText</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EmailMailBox</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPrimary</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>IsNotificationSent</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>MasterDetail</type>
+        <fullName>TriggerType</fullName>
     </fields>
     <fields>
-        <fullName>PreferenceRank</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>TriggerValue</fullName>
     </fields>
-    <fields>
-        <fullName>UsageType</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>EmailAddress</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>EmailAddress</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

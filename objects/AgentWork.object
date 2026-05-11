@@ -127,6 +127,9 @@
         <fullName>RoutingType</fullName>
     </fields>
     <fields>
+        <fullName>ScheduledRoutingDateTime</fullName>
+    </fields>
+    <fields>
         <fullName>ServiceChannelId</fullName>
         <type>Lookup</type>
     </fields>

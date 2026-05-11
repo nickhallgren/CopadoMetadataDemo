@@ -305,6 +305,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ApprovalWorkItem.ParentWorkItemId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ApprovalWorkItem.RelatedRecordId</field>
         <readable>false</readable>
     </fieldPermissions>
